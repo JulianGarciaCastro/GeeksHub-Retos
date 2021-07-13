@@ -1,0 +1,10 @@
+//Import Partials
+@import "mixin";
+
+#home{
+    .container{
+        @include desktop{
+            font-size: 3rem;
+        }
+    }
+}
