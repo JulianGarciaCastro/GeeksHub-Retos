@@ -16,3 +16,15 @@
     @content;
   }
 }
+
+@mixin overBox {
+  background: $bgUplevel;
+  border-radius: 10px;
+  box-shadow: 2.91px 2.91px 6px $shadowBox, -2.91px -2.91px 6px $lightBox;
+}
+
+@mixin insetBox {
+  background: $bgUplevel;
+  border-radius: 10px;
+  box-shadow: inset 2.91px 2.91px 6px $shadowBox, inset -2.91px -2.91px 6px $lightBox;
+}

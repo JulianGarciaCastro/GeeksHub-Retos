@@ -1,0 +1,49 @@
+@import "mixin";
+@import "base";
+header{
+   
+    nav{
+        font-size: 1rem;
+        .navbar-brand{
+            color: $firstColor !important;
+            margin-right: 2rem;
+            h1{
+                font-size: 1.1rem;
+                @include desktop{
+                font-size: 1.6rem;
+                }
+            }
+            p{
+                font-size: 0.8rem;
+            }
+        }
+       
+        background-color: $bgUplevel;
+        .navbar-collapse {
+            flex-grow: 0 !important;  
+            
+        }
+        .nav-item{           
+            margin: 0 1rem ; 
+            text-align: center;         
+        }
+        .nav-link{
+            width: 100%;
+            padding: 0.4rem 2rem;
+            margin: 0 1rem ;
+            color:$firstColor;
+            @include overBox;
+        }
+        .active
+        {
+            width: 100%;
+            padding: 0.4rem 2rem;
+            margin: 0 1rem;  
+            color:$secondColor;
+            @include insetBox;         
+        }
+        
+        
+    }
+   
+}
