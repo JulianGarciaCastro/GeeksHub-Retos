@@ -54,15 +54,15 @@ p {
   font-size: 0.8rem;
   color: #7b89a3; }
 
-.cover nav {
+nav {
   font-size: 1rem;
   background-color: #e3edf7; }
-  .cover nav .navbar-collapse {
+  nav .navbar-collapse {
     flex-grow: 0 !important; }
-  .cover nav .nav-item {
+  nav .nav-item {
     margin: 0 1rem;
     text-align: center; }
-  .cover nav .nav-link {
+  nav .nav-link {
     width: 100%;
     padding: 0.4rem 2rem;
     margin: 0.5rem 0rem;
@@ -71,9 +71,9 @@ p {
     border-radius: 10px;
     box-shadow: 2.91px 2.91px 6px #cbd6ea, -2.91px -2.91px 6px white; }
     @media only screen and (min-width: 992px) {
-      .cover nav .nav-link {
+      nav .nav-link {
         margin: 0.5rem 1rem; } }
-  .cover nav .active {
+  nav .active {
     width: 100%;
     padding: 0.4rem 2rem;
     margin: 0.5rem 0rem;
@@ -82,9 +82,10 @@ p {
     border-radius: 10px;
     box-shadow: inset 2.91px 2.91px 6px #cbd6ea, inset -2.91px -2.91px 6px white; }
     @media only screen and (min-width: 992px) {
-      .cover nav .active {
+      nav .active {
         margin: 0.5rem 1rem; } }
-.cover .navbar-light .navbar-toggler {
+
+.navbar-light .navbar-toggler {
   color: #7b89a3;
   border-color: none; }
 
@@ -172,6 +173,7 @@ p {
         #home .mainContainer .services .block .servicesCards img {
           margin: 1rem;
           width: 5rem;
+          object-fit: none;
           background: #e3edf7;
           border-radius: 10px;
           box-shadow: inset 2.91px 2.91px 6px #cbd6ea, inset -2.91px -2.91px 6px white;

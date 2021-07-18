@@ -1,0 +1,162 @@
+h1 {
+  font-size: 1.1rem;
+  color: #2f3b52; }
+  @media only screen and (min-width: 992px) {
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600; } }
+
+h2 {
+  font-size: 0.8rem;
+  color: #7b89a3; }
+  @media only screen and (min-width: 992px) {
+    h2 {
+      font-size: 1.8rem !important;
+      font-weight: 600; } }
+
+h4 {
+  font-size: 0.5rem;
+  color: #7b89a3; }
+  @media only screen and (min-width: 992px) {
+    h4 {
+      font-size: 1.4rem !important;
+      font-weight: 600; } }
+
+p {
+  font-size: 0.8rem;
+  color: #7b89a3; }
+
+h1 {
+  font-size: 1.1rem;
+  color: #2f3b52; }
+  @media only screen and (min-width: 992px) {
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 600; } }
+
+h2 {
+  font-size: 0.8rem;
+  color: #7b89a3; }
+  @media only screen and (min-width: 992px) {
+    h2 {
+      font-size: 1.8rem !important;
+      font-weight: 600; } }
+
+h4 {
+  font-size: 0.5rem;
+  color: #7b89a3; }
+  @media only screen and (min-width: 992px) {
+    h4 {
+      font-size: 1.4rem !important;
+      font-weight: 600; } }
+
+p {
+  font-size: 0.8rem;
+  color: #7b89a3; }
+
+nav {
+  font-size: 1rem;
+  background-color: #e3edf7; }
+  nav .navbar-collapse {
+    flex-grow: 0 !important; }
+  nav .nav-item {
+    margin: 0 1rem;
+    text-align: center; }
+  nav .nav-link {
+    width: 100%;
+    padding: 0.4rem 2rem;
+    margin: 0.5rem 0rem;
+    color: #7b89a3;
+    background: #e3edf7;
+    border-radius: 10px;
+    box-shadow: 2.91px 2.91px 6px #cbd6ea, -2.91px -2.91px 6px white; }
+    @media only screen and (min-width: 992px) {
+      nav .nav-link {
+        margin: 0.5rem 1rem; } }
+  nav .active {
+    width: 100%;
+    padding: 0.4rem 2rem;
+    margin: 0.5rem 0rem;
+    color: #2f3b52;
+    background: #e3edf7;
+    border-radius: 10px;
+    box-shadow: inset 2.91px 2.91px 6px #cbd6ea, inset -2.91px -2.91px 6px white; }
+    @media only screen and (min-width: 992px) {
+      nav .active {
+        margin: 0.5rem 1rem; } }
+
+.navbar-light .navbar-toggler {
+  color: #7b89a3;
+  border-color: none; }
+
+#contactme {
+  position: relative;
+  background-color: #e3edf7; }
+  #contactme .mainContainer section {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center; }
+    #contactme .mainContainer section .block {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center; }
+  #contactme .mainContainer .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; }
+    #contactme .mainContainer .contact form {
+      max-width: 350px; }
+      #contactme .mainContainer .contact form input {
+        background: #e3edf7;
+        border-radius: 10px;
+        box-shadow: inset 2.91px 2.91px 6px #cbd6ea, inset -2.91px -2.91px 6px white;
+        border: none; }
+      #contactme .mainContainer .contact form label {
+        width: 100%;
+        text-align: left !important; }
+      #contactme .mainContainer .contact form .form-check-label {
+        font-size: 0.8rem; }
+      #contactme .mainContainer .contact form button {
+        width: 100%;
+        border: none;
+        color: #7b89a3;
+        background: #e3edf7;
+        border-radius: 10px;
+        box-shadow: 2.91px 2.91px 6px #cbd6ea, -2.91px -2.91px 6px white; }
+    #contactme .mainContainer .contact .textBlock {
+      max-width: 350px;
+      padding: 0rem; }
+    #contactme .mainContainer .contact .rrss {
+      margin-top: 3rem; }
+      #contactme .mainContainer .contact .rrss ul {
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        #contactme .mainContainer .contact .rrss ul li {
+          margin: 1.5rem;
+          text-decoration: none;
+          list-style-type: none; }
+          #contactme .mainContainer .contact .rrss ul li img {
+            width: 2.5rem;
+            height: 2.5rem;
+            object-fit: none;
+            margin: 0 1rem;
+            background-size: cover;
+            background: #e3edf7;
+            border-radius: 10px;
+            box-shadow: 2.91px 2.91px 6px #cbd6ea, -2.91px -2.91px 6px white;
+            border-radius: 89px; }
+            @media only screen and (min-width: 992px) {
+              #contactme .mainContainer .contact .rrss ul li img {
+                margin: 0 1rem; } }
+          #contactme .mainContainer .contact .rrss ul li a {
+            text-decoration: none;
+            list-style-type: none;
+            color: #7b89a3; }
+
+/*# sourceMappingURL=contact.css.map */

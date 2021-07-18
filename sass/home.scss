@@ -93,6 +93,7 @@
                     img{
                         margin: 1rem;
                         width: 5rem;
+                        object-fit: none;
                         @include insetBox;
                         padding: 0.5rem;
                         border-radius: 89px;
