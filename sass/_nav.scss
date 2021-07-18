@@ -1,22 +1,9 @@
 @import "mixin";
 @import "base";
-header{
+.cover{
    
     nav{
-        font-size: 1rem;
-        .navbar-brand{
-            color: $firstColor !important;
-            margin-right: 2rem;
-            h1{
-                font-size: 1.1rem;
-                @include desktop{
-                font-size: 1.6rem;
-                }
-            }
-            p{
-                font-size: 0.8rem;
-            }
-        }
+        font-size: 1rem;     
        
         background-color: $bgUplevel;
         .navbar-collapse {
@@ -30,20 +17,29 @@ header{
         .nav-link{
             width: 100%;
             padding: 0.4rem 2rem;
-            margin: 0 1rem ;
+            margin: 0.5rem 0rem ;
             color:$firstColor;
             @include overBox;
+            @include desktop{
+                margin: 0.5rem 1rem ;
+            }
         }
         .active
         {
             width: 100%;
             padding: 0.4rem 2rem;
-            margin: 0 1rem;  
+            margin: 0.5rem 0rem;  
             color:$secondColor;
-            @include insetBox;         
+            @include insetBox;
+            @include desktop{
+                margin: 0.5rem 1rem ;
+            }       
         }
         
-        
+    }
+    .navbar-light .navbar-toggler {
+        color: $firstColor;
+        border-color: none;
     }
    
 }
